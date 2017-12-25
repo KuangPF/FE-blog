@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div class="index" v-title="'index'">
+      index
   </div>
 </template>
 
 <script>
-import './sass/reset.scss'
 export default {
-  name: 'app'
+
 }
 </script>
 
