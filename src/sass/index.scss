@@ -1,0 +1,109 @@
+.index {
+	.header {
+		display: flex;
+		justify-content: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+		background-color: #FFF;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+		z-index: 100;
+		.menu {
+			position: absolute;
+			left: 20px;
+			top: 10px;
+			height: 25px;
+			width: 25px;
+		}
+		.title {
+			margin-left: 10px;
+			font-size: 25px;
+			color: #2C3E50;
+			text-align: center;
+		}
+	}
+	.main-content {
+		position: absolute;
+		top: 60px;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		.wrap {
+			padding: 10px;
+			.content-item {
+				display: flex;
+				align-items: center;
+				height: 115px;
+				width: 100%;
+				margin-bottom: 10px;
+				background-color: rgb(248, 248, 248);
+				box-sizing: border-box;
+				display: flex;
+				border-radius: 5px;
+				.item-icon {
+					flex: 0 1 auto;
+					height: 100px;
+					width: 100px;
+					margin-left: 10px;
+				}
+				.item-detail {
+					display: flex;
+					flex-direction: column;
+					flex: 1 1 auto;
+					margin-left: 15px;
+					min-height: 100px;
+					.item-label {
+						.label-title {
+							margin-top: 5px;
+							font-size: 18px;
+						}
+						a {
+							display: inline-block;
+							position: relative;
+							height: 18px;
+							margin: 5px 9px 5px 10px;
+							padding: 0 5px 0px 10px;
+							border-radius: 0 5px 5px 0;
+							line-height: 1;
+							color: #fff;
+							background-color: #4cae4c;
+							&::before {
+								content: " ";
+								position: absolute;
+								top: 0;
+								left: -18px;
+								width: 0px;
+								height: 0px;
+								border: 9px solid transparent;
+								border-right-color: #4cae4c;
+							}
+							&::after {
+								content: " ";
+								position: absolute;
+								top: 7px;
+								left: 2px;
+								width: 4px;
+								height: 4px;
+								background-color: #fff;
+								border-radius: 4px;
+								-webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+								box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+							}
+						}
+					}
+					.recently-update {
+						margin-top: 10px;
+
+					}
+					.update-date {
+						margin-top: 15px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import './sass/reset.scss'
+import './sass/style.scss';
 export default {
   name: 'app'
-}
+};
 </script>
 
 <style>
