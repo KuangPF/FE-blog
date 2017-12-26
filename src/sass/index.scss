@@ -58,8 +58,8 @@
 					min-height: 100px;
 					.item-label {
 						.label-title {
-							margin-top: 5px;
 							font-size: 18px;
+							vertical-align: middle;
 						}
 						a {
 							display: inline-block;
@@ -70,7 +70,7 @@
 							border-radius: 0 5px 5px 0;
 							line-height: 1;
 							color: #fff;
-							background-color: #4cae4c;
+							vertical-align: middle;
 							&::before {
 								content: " ";
 								position: absolute;
@@ -79,7 +79,6 @@
 								width: 0px;
 								height: 0px;
 								border: 9px solid transparent;
-								border-right-color: #4cae4c;
 							}
 							&::after {
 								content: " ";
@@ -94,10 +93,33 @@
 								box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
 							}
 						}
+						.color1 {
+							background-color: #4cae4c;
+							&::before {
+								border-right-color: #4cae4c;
+							}
+						}
+						.color2 {
+							background-color: #f0ad4e;
+							&::before {
+								border-right-color: #f0ad4e;
+							}
+						}
+						.color3 {
+							background-color: #39b3d7;
+							&::before {
+								border-right-color: #39b3d7;
+							}
+						}
+						.color4 {
+							background-color: #e23794;
+							&::before {
+								border-right-color: #e23794;
+							}
+						}
 					}
 					.recently-update {
 						margin-top: 10px;
-
 					}
 					.update-date {
 						margin-top: 15px;

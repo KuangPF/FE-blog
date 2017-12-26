@@ -1,0 +1,14 @@
+{
+	"indexItemList": [{
+		"headerImg": "../../static/index/vue.svg",
+		"label": [{
+			"colorClass": "color1",
+			"labelText": "vue"
+		}, {
+			"colorClass": "color2",
+			"labelText": "vue-router"
+        }],
+        "updateDesc": "vue 组件间通信",
+        "updateDate": "2017.12.27"
+	}]
+}

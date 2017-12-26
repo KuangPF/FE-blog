@@ -74,7 +74,7 @@ module.exports = {
 		"prefer-arrow-callback": 0,
 		"func-names": 0,
 		"no-underscore-dangle": 0,
-		"import/prefer-default-export": 1,
+		"import/prefer-default-export": 0,
 		"class-methods-use-this": 0,
 		"no-prototype-builtins": 0,
 		"import/no-extraneous-dependencies": 0,
