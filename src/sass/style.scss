@@ -1,5 +1,82 @@
 @import './reset.scss';
 @import './index.scss';
 .font-color1 {
-    color: #8c98a4;
+	color: #8c98a4;
+}
+
+.font2 {
+	font-size: 15px;
+	color: #ccc;
+}
+
+.tagcloud {
+	a {
+		display: inline-block;
+		position: relative;
+		height: 18px;
+		margin: 5px 6px 5px 10px;
+		padding: 0 5px 0px 10px;
+		border-radius: 0 5px 5px 0;
+		line-height: 18px;
+		font-size: 12px;
+		color: #fff;
+		vertical-align: middle;
+		&::before {
+			content: " ";
+			position: absolute;
+			top: 0;
+			left: -18px;
+			width: 0px;
+			height: 0px;
+			border: 9px solid transparent;
+		}
+		&::after {
+			content: " ";
+			position: absolute;
+			top: 7px;
+			left: 2px;
+			width: 4px;
+			height: 4px;
+			background-color: #fff;
+			border-radius: 4px;
+			-webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+		}
+	}
+	.color1 {
+		background-color: #4cae4c;
+		&::before {
+			border-right-color: #4cae4c;
+		}
+	}
+	.color2 {
+		background-color: #f0ad4e;
+		&::before {
+			border-right-color: #f0ad4e;
+		}
+	}
+	.color3 {
+		background-color: #39b3d7;
+		&::before {
+			border-right-color: #39b3d7;
+		}
+	}
+	.color4 {
+		background-color: #e23794;
+		&::before {
+			border-right-color: #e23794;
+		}
+	}
+	.color5 {
+		background-color: #F2E433;
+		&::before {
+			border-right-color: #F2E433;
+		}
+	}
+	.color6 {
+		background-color: #6C617f;
+		&::before {
+			border-right-color: #6C617f;
+		}
+	}
 }

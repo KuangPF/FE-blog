@@ -49,10 +49,46 @@
 			"colorClass": "color2",
 			"labelText": "UI"
 		}, {
-			"colorClass": "color5",
+			"colorClass": "color6",
 			"labelText": "elementUI"
 		}],
 		"updateDesc": "element-ui 基本组件",
 		"updateDate": "2017.12.27"
-	}]
+	}],
+	"menuItemList": {
+		"aboutMe": "这就是你和女神说话的态度？",
+		"label": [{
+			"src": "/vue",
+			"desc": "vue",
+			"colorClass": "color1"
+		},{
+			"src": "/javascript",
+			"desc": "javascript",
+			"colorClass": "color2"
+		},{
+			"src": "/vue",
+			"desc": "组件通信",
+			"colorClass": "color1"
+		},{
+			"src": "/css",
+			"desc": "css-animation",
+			"colorClass": "color3"
+		},{
+			"src": "/css",
+			"desc": "flex",
+			"colorClass": "color3"
+		},{
+			"src": "/css",
+			"desc": "移动端适配",
+			"colorClass": "color6"
+		},{
+			"src": "/css",
+			"desc": "设备像素",
+			"colorClass": "color3"
+		},{
+			"src": "/js",
+			"desc": "http 状态码",
+			"colorClass": "color4"
+		}]
+	}
 }
