@@ -1,6 +1,6 @@
 {
 	"indexItemList": [{
-		"headerImg": "../../static/index/vue.svg",
+		"headerImg": "./static/index/vue.svg",
 		"label": [{
 			"colorClass": "color1",
 			"labelText": "vue"
@@ -12,7 +12,7 @@
 		"updateDate": "2017.12.27",
 		"pathUrl":"/vue"
 	}, {
-		"headerImg": "../../static/index/es6.svg",
+		"headerImg": "./static/index/es6.svg",
 		"label": [{
 			"colorClass": "color3",
 			"labelText": "es6"
@@ -24,7 +24,7 @@
 		"updateDate": "2017.12.27",
 		"pathUrl":"/javascript"
 	}, {
-		"headerImg": "../../static/index/h5.svg",
+		"headerImg": "./static/index/h5.svg",
 		"label": [{
 			"colorClass": "color1",
 			"labelText": "H5"
@@ -36,7 +36,7 @@
 		"updateDate": "2017.12.27",
 		"pathUrl":"/h5"
 	}, {
-		"headerImg": "../../static/index/css3.svg",
+		"headerImg": "./static/index/css3.svg",
 		"label": [{
 			"colorClass": "color3",
 			"labelText": "CSS3"
@@ -48,7 +48,7 @@
 		"updateDate": "2017.12.27",
 		"pathUrl":"/css"
 	}, {
-		"headerImg": "../../static/index/ui.svg",
+		"headerImg": "./static/index/ui.svg",
 		"label": [{
 			"colorClass": "color2",
 			"labelText": "UI"

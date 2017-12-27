@@ -1,6 +1,6 @@
 {
 	"headerInfo": {
-		"headerImg": "../../../static/index/vue.svg",
+		"headerImg": "./static/index/vue.svg",
 		"articeNum": 1,
 		"articleTitle": "vue 组件间通信",
 		"articleDate": "2017.12.27"
