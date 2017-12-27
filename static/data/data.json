@@ -7,8 +7,52 @@
 		}, {
 			"colorClass": "color2",
 			"labelText": "vue-router"
-        }],
-        "updateDesc": "vue 组件间通信",
-        "updateDate": "2017.12.27"
+		}],
+		"updateDesc": "vue 组件间通信",
+		"updateDate": "2017.12.27"
+	}, {
+		"headerImg": "../../static/index/es6.svg",
+		"label": [{
+			"colorClass": "color3",
+			"labelText": "es6"
+		}, {
+			"colorClass": "color5",
+			"labelText": "闭包"
+		}],
+		"updateDesc": "es6--promise",
+		"updateDate": "2017.12.27"
+	}, {
+		"headerImg": "../../static/index/h5.svg",
+		"label": [{
+			"colorClass": "color1",
+			"labelText": "H5"
+		}, {
+			"colorClass": "color4",
+			"labelText": "H5特性"
+		}],
+		"updateDesc": "H5 新增标签及其用法",
+		"updateDate": "2017.12.27"
+	}, {
+		"headerImg": "../../static/index/css3.svg",
+		"label": [{
+			"colorClass": "color3",
+			"labelText": "CSS3"
+		}, {
+			"colorClass": "color4",
+			"labelText": "animation"
+		}],
+		"updateDesc": "CSS 动画",
+		"updateDate": "2017.12.27"
+	}, {
+		"headerImg": "../../static/index/ui.svg",
+		"label": [{
+			"colorClass": "color2",
+			"labelText": "UI"
+		}, {
+			"colorClass": "color5",
+			"labelText": "elementUI"
+		}],
+		"updateDesc": "element-ui 基本组件",
+		"updateDate": "2017.12.27"
 	}]
 }

@@ -4,7 +4,7 @@
 			<div class="menu"><img src="../../static/index/menu.svg"></div>
 			<div class="title">Front-End Blog</div>
 		</div>
-		<div class="main-content">
+		<div class="main-content" ref="mainContent">
 			<div class="wrap">
 				<div class="content-item" v-for="item in indexItemList">
 					<div class="item-icon"><img :src="item.headerImg"></div>
@@ -18,7 +18,7 @@
 							<span class="font-color1">{{item.updateDesc}}</span>
 						</div>
 						<div class="update-date">
-							<span >更新时间:</span>
+							<span>更新时间:</span>
 							<span class="font-color1">{{item.updateDate}}</span>
 						</div>
 					</div>
@@ -30,6 +30,7 @@
 
 <script>
 import { getIndexItemLists } from '../api/api';
+import BScroll from 'better-scroll';
 export default {
 	data() {
 		return {
@@ -42,6 +43,14 @@ export default {
 			console.log(indexItemList);
 			this.indexItemList = indexItemList;
 		});
+		this._initScroll();
+	},
+	methods: {
+		_initScroll() {
+			this.mainContent = new BScroll(this.$refs.mainContent, {
+				click: true
+			});
+		}
 	}
 };
 </script>
