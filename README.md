@@ -2,4 +2,4 @@
 
 > :scroll:该项目是记录前端开发的一些知识点,持续更新...
 
-> :christmas_tree:知识点讲义README.md 的形式进行阐述,需要代码自行`git clone`     
+> :christmas_tree:知识点将以README.md 的形式进行阐述,需要代码自行 `git clone`     
