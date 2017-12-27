@@ -12,6 +12,7 @@ Vue.directive('title', {
 		document.title = binding.value;
 	}
 });
+
 /* eslint-disable no-new */
 new Vue({
 	el: '#app',

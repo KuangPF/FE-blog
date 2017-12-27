@@ -16,7 +16,7 @@
 		</div>
 		<div class="main-content" ref="mainContent">
 			<div class="wrap">
-				<div class="content-item" v-for="item in indexItemList">
+				<div class="content-item" v-for="item in indexItemList" @click="viewDetail(item.pathUrl)">
 					<div class="item-icon"><img :src="item.headerImg"></div>
 					<div class="item-detail">
 						<div class="item-label tagcloud">
@@ -55,7 +55,6 @@ export default {
 		getIndexItemLists().then(res => {
 			let indexItemList = res.data.indexItemList;
 			let menuItemList = res.data.menuItemList;
-			console.log(indexItemList);
 			this.indexItemList = indexItemList;
 			this.menuItemList = menuItemList;
 		});
@@ -74,6 +73,9 @@ export default {
 		hideMenu() {
 			this.isMaskShow = false;
 			this.isMenuShow = false;
+		},
+		viewDetail(pathUrl) {
+			this.$router.push({ path: pathUrl, query: '' });
 		}
 	}
 };

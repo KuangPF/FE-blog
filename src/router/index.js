@@ -23,11 +23,12 @@ export default new Router({
 			component: index
 		}, {
 			path: '/vue',
-			name: 'vue',
-			component: VueIndex,
+			component: PageTransition,
 			children: [{
-				path: '/componentsBus',
-				name: 'componentsBus',
+				path: '',
+				component: VueIndex
+			}, {
+				path: '/vue/componentsBus',
 				component: ComponentsBus
 			}]
 		}, {

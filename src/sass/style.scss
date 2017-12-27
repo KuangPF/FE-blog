@@ -1,6 +1,9 @@
 @import './reset.scss';
 @import './index.scss';
-.font-color1 {
+@import './vue/index.scss';
+
+.font1 {
+	font-size: 15px;
 	color: #8c98a4;
 }
 

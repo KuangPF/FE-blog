@@ -5,4 +5,10 @@ export function getIndexItemLists() {
 		method: 'get',
 		params: ''
 	});
+};
+export function getVueItemLists() {
+	return axios.request('../../static/data/vue.json', {
+		method: 'get',
+		params: ''
+	});
 }
