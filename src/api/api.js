@@ -1,13 +1,21 @@
 import axios from 'axios';
 
+const debug = process.env.NODE_ENV !== 'production';
+const INDEX_ITEM_URL_BUILD = 'https://github.com/KuangPF/FE-blog/blob/master/static/data/data.json';
+const VUE_ITEM_URL_BUILD = 'https://github.com/KuangPF/FE-blog/blob/master/static/data/vue.json';
+const INDEX_ITEM_URL_DEV = '../../static/data/data.json';
+const VUE_ITEM_URL_DEV = '../../static/data/vue.json';
+
+const indexItemUrl = debug ? INDEX_ITEM_URL_DEV : INDEX_ITEM_URL_BUILD;
+const vueItemUlr = debug ? VUE_ITEM_URL_DEV : VUE_ITEM_URL_BUILD;
 export function getIndexItemLists() {
-	return axios.request('../../static/data/data.json', {
+	return axios.request(indexItemUrl, {
 		method: 'get',
 		params: ''
 	});
 };
 export function getVueItemLists() {
-	return axios.request('../../static/data/vue.json', {
+	return axios.request(vueItemUlr, {
 		method: 'get',
 		params: ''
 	});
