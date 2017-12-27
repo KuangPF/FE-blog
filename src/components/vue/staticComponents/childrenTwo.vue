@@ -33,7 +33,10 @@ export default {
 			bus.$on('dataFromOne', data => {
 				this.dataFromOne = data;
 			});
-		}
+		},
+        clearData() {
+            this.dataFromOne = '';
+        }
 	}
 };
 </script>

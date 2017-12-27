@@ -33,7 +33,10 @@ export default {
 		},
 		sendMsgToTwo() {
 			bus.$emit('dataFromOne', this.brotherOneTxt);
-		}
+		},
+        clearData() {
+            this.dataFromTwo = '';
+        }
 	}
 };
 </script>
