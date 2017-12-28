@@ -24,7 +24,7 @@
 		"updateDate": "2017.12.27",
 		"pathUrl":"/javascript"
 	}, {
-		"headerImg": "./static/index/h5.svg",
+		"headerImg": "./static/index/H5.svg",
 		"label": [{
 			"colorClass": "color1",
 			"labelText": "H5"
