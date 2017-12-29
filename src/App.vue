@@ -1,13 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+    <div id="app">
+        <router-view/>
+    </div>
 </template>
 
 <script>
 import './sass/style.scss';
 export default {
-  name: 'app'
+    name: 'app'
 };
 </script>
 

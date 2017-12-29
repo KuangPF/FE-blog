@@ -4,6 +4,9 @@ import index from '@/components/index';
 import PageTransition from '@/components/PageTransition';
 import VueIndex from '@/components/vue/VueIndex';
 import JsIndex from '@/components/js/JsIndex';
+import HtmlIndex from '@/components/html/HtmlIndex';
+import CssIndex from '@/components/css/CssIndex';
+import UiIndex from '@/components/ui/UiIndex';
 import ComponentsBus from '@/components/vue/ComponentsBus';
 
 Vue.use(Router);
@@ -35,6 +38,18 @@ export default new Router({
 			path: '/javascript',
 			name: 'javascript',
 			component: JsIndex
+		}, {
+			path: '/h5',
+			name: 'HtmlIndex',
+			component: HtmlIndex
+		}, {
+			path: '/css',
+			name: 'CssIndex',
+			component: CssIndex
+		}, {
+			path: '/ui',
+			name: 'UiIndex',
+			component: UiIndex
 		}]
 	}]
 });

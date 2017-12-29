@@ -8,7 +8,7 @@
 <script>
 import ItemIndex from '../ItemIndex';
 import Doing from '../Doing';
-import { getJavascriptItemLists } from '../../api/api';
+import { getUiItemLists } from '../../api/api';
 export default {
     data() {
         return {
@@ -23,7 +23,7 @@ export default {
 
     },
     mounted() {
-        getJavascriptItemLists().then(res => {
+        getUiItemLists().then(res => {
             this.itemData = res.data;
         });
     }
