@@ -1,6 +1,6 @@
 <template>
     <div class="js-index">
-        <ItemIndex :itemData="itemData"></ItemIndex>
+        <ItemIndex :itemData="itemData" v-if="isShowItemIndex"></ItemIndex>
         <Doing></Doing>
     </div>
 </template>
@@ -12,7 +12,8 @@ import { getJavascriptItemLists } from '../../api/api';
 export default {
     data() {
         return {
-            itemData: ''
+            itemData: '',
+            isShowItemIndex: false
         };
     },
     components: {
@@ -25,6 +26,7 @@ export default {
     mounted() {
         getJavascriptItemLists().then(res => {
             this.itemData = res.data;
+            this.isShowItemIndex = true;
         });
     }
 };
