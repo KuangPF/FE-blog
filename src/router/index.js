@@ -8,6 +8,8 @@ import HtmlIndex from '@/components/html/HtmlIndex';
 import CssIndex from '@/components/css/CssIndex';
 import UiIndex from '@/components/ui/UiIndex';
 import ComponentsBus from '@/components/vue/ComponentsBus';
+/* css */
+import ClearFloat from '@/components/css/ClearFloat';
 
 Vue.use(Router);
 Router.prototype.goBack = function () {
@@ -40,12 +42,17 @@ export default new Router({
 			component: JsIndex
 		}, {
 			path: '/h5',
-			name: 'HtmlIndex',
 			component: HtmlIndex
 		}, {
 			path: '/css',
-			name: 'CssIndex',
-			component: CssIndex
+			component: PageTransition,
+			children: [{
+				path: '',
+				component: CssIndex
+			}, {
+				path: '/css/clear-float',
+				component: ClearFloat
+			}]
 		}, {
 			path: '/ui',
 			name: 'UiIndex',

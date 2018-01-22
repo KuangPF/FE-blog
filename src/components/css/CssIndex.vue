@@ -1,7 +1,7 @@
 <template>
     <div class="js-index">
         <ItemIndex :itemData="itemData" v-if="isShowItemIndex"></ItemIndex>
-        <Doing></Doing>
+        <Doing v-if="isShowDoing"></Doing>
     </div>
 </template>
 
@@ -13,7 +13,8 @@ export default {
     data() {
         return {
             itemData: '',
-            isShowItemIndex: false
+            isShowItemIndex: false,
+            isShowDoing: false
         };
     },
     components: {
@@ -27,6 +28,9 @@ export default {
         getCssItemLists().then(res => {
             this.itemData = res.data;
             this.isShowItemIndex = true;
+            if (this.itemData.articleList.length === 0) {
+                this.isShowDoing = true;
+            }
         });
     }
 };
