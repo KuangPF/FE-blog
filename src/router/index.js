@@ -8,6 +8,8 @@ import HtmlIndex from '@/components/html/HtmlIndex';
 import CssIndex from '@/components/css/CssIndex';
 import UiIndex from '@/components/ui/UiIndex';
 import ComponentsBus from '@/components/vue/ComponentsBus';
+/* javascript */
+import Promise from '@/components/js/Promise';
 /* css */
 import ClearFloat from '@/components/css/ClearFloat';
 
@@ -38,8 +40,14 @@ export default new Router({
 			}]
 		}, {
 			path: '/javascript',
-			name: 'javascript',
-			component: JsIndex
+			component: PageTransition,
+			children: [{
+				path: '',
+				component: JsIndex
+			}, {
+				path: '/javascript/es6-promise',
+				component: Promise
+			}]
 		}, {
 			path: '/h5',
 			component: HtmlIndex

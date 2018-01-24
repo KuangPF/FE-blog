@@ -1,0 +1,68 @@
+/* color */
+
+$color-default:rgb(246, 246, 246);
+$color-vue-green: rgb(65, 184, 131);
+$color-vue-gray: rgb(53, 73, 94);
+$color-vue-black: rgb(44, 62, 80);
+$color-vue-red: rgb(255, 102, 102);
+$color-vue-font-default:rgb(91, 95, 115);
+$color-vue-font-active: rgb(66, 185, 131);
+$color-vue-font-code: rgb(241, 177, 125);
+
+/* btn */
+
+
+/* btn-clor */
+
+$btn-color-default: rgb(232, 232, 232);
+$btn-color-primary: rgb(0, 89, 204);
+$btn-color-info:rgb(47, 150, 180);
+$btn-color-success:rgb(84, 169, 84);
+$btn-color-warning: rgb(248, 148, 6);
+$btn-color-danger:rgb(185, 54, 47);
+$btn-color-inverse: rgb(36, 36, 36);
+.btn {
+	display: inline-block;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	background-color: $btn-color-default;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: $btn-color-primary;
+	color: rgb(255, 255, 255);
+}
+
+.btn-danger {
+	background-color: $btn-color-danger;
+	color: rgb(255, 255, 255);
+}
+.btn-info {
+	background-color: $btn-color-info;
+	color: rgb(255, 255, 255);
+}
+.btn-warning {
+	background-color: $btn-color-warning;
+	color: rgb(255, 255, 255);
+}
+.btn-inverse {
+	background-color: $btn-color-inverse;
+	color: rgb(255, 255, 255);
+}
+.btn-success {
+	background-color: $btn-color-success;
+	color: rgb(255, 255, 255);
+}
+// default
+
+/* text */
+.text {
+	font-size: 15px;
+}

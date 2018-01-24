@@ -1,9 +1,15 @@
 {
 	"headerInfo": {
 		"headerImg": "./static/index/es6.svg",
-		"articeNum": 0,
-		"articleTitle": "待更新",
-		"articleDate": "2017.12.27"
+		"articeNum": 1,
+		"articleTitle": "es6 promise",
+		"articleDate": "2018.01.24"
 	},
-	"articleList": []
+	"articleList": [{
+		"title": "es6 promise",
+		"label": "promise",
+		"labelColor": "color5",
+		"date": "2018.01.24",
+		"pathUrl": "/javascript/es6-promise"
+	}]
 }
