@@ -8,7 +8,7 @@
 ![image](https://github.com/KuangPF/FE-blog/blob/master/static/index/demoQR-code.png)
 
 ## [Vue](https://kuangpf.github.io/FE-blog/dist/#/vue)
-* December 27, 2017 => [vue组件间的通信](https://github.com/KuangPF/FE-blog/issues/1)
+* December 27, 2017 => [vue 组件间的通信](https://github.com/KuangPF/FE-blog/issues/1)
 
 ## [javascript](https://kuangpf.github.io/FE-blog/dist/#/javascript)
 * January 22, 2018 => [js 常见方法](https://github.com/KuangPF/FE-blog/issues/2)
@@ -16,5 +16,6 @@
 ## [html](https://kuangpf.github.io/FE-blog/dist/#/h5)
 
 ## [css](https://kuangpf.github.io/FE-blog/dist/#/css)
+* January 24, 2018 => [css 清除浮动8种方法](https://github.com/KuangPF/FE-blog/issues/3)
 
 ## [UI](https://kuangpf.github.io/FE-blog/dist/#/ui)
