@@ -6,7 +6,7 @@
 		"articleDate": "2017.12.27"
 	},
 	"articleList": [{
-		"title": "vue 组件间通信,利用$emi && props实现",
+		"title": "vue 组件间通信,利用$emit && props实现",
 		"label": "components",
 		"labelColor": "color1",
 		"date": "2017.12.27",

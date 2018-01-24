@@ -44,8 +44,8 @@
 			"colorClass": "color4",
 			"labelText": "animation"
 		}],
-		"updateDesc": "CSS 动画",
-		"updateDate": "2017.12.27",
+		"updateDesc": "css 清除浮动",
+		"updateDate": "2018.01.24",
 		"pathUrl":"/css"
 	}, {
 		"headerImg": "./static/index/ui.svg",
