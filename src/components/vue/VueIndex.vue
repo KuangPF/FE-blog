@@ -1,5 +1,5 @@
 <template>
-    <div class="vue-index">
+    <div class="vue-index" v-title="'vue'">
         <div class="header">
             <div class="logo"><img :src="vueItemHeader.headerImg"></div>
             <div class="content-detail">

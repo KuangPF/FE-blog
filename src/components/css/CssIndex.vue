@@ -1,5 +1,5 @@
 <template>
-    <div class="js-index">
+    <div class="js-index" v-title="'css'">
         <ItemIndex :itemData="itemData" v-if="isShowItemIndex"></ItemIndex>
         <Doing v-if="isShowDoing"></Doing>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="components-bus-container">
+    <div class="components-bus-container" v-title="'vue 组件通信'">
         <div class="components-bus">
             <div class="title" @listenTwo='getCompomentTwo'>父组件:</div>
             <div @click="changeChildrenOne" class="btn">将消息传递给childrenOne</div>

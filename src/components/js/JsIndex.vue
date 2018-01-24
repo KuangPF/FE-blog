@@ -1,5 +1,5 @@
 <template>
-    <div class="js-index">
+    <div class="js-index" v-title="'javascript'">
         <ItemIndex :itemData="itemData" v-if="isShowItemIndex"></ItemIndex>
         <Doing></Doing>
     </div>

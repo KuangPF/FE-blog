@@ -1,5 +1,5 @@
 <template>
-	<div class="clear-float">
+	<div class="clear-float" v-title="'css 8种方法清除浮动'">
 		<div class="case1">
 			<div class="title">1.父级div定义height</div>
 			<div class="div1">
