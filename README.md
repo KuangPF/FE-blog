@@ -12,6 +12,7 @@
 
 ## [javascript](https://kuangpf.github.io/FE-blog/dist/#/javascript)
 * January 22, 2018 => [js 常见方法](https://github.com/KuangPF/FE-blog/issues/2)
+* January 24, 2018 => [js es6 promise用法](https://github.com/KuangPF/FE-blog/issues/4)
 
 ## [html](https://kuangpf.github.io/FE-blog/dist/#/h5)
 
