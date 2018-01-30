@@ -10,6 +10,7 @@ import UiIndex from '@/components/ui/UiIndex';
 import ComponentsBus from '@/components/vue/ComponentsBus';
 /* javascript */
 import Promise from '@/components/js/Promise';
+import LetAndConst from '@/components/js/LetAndConst';
 /* css */
 import ClearFloat from '@/components/css/ClearFloat';
 
@@ -47,6 +48,9 @@ export default new Router({
 			}, {
 				path: '/javascript/es6-promise',
 				component: Promise
+			}, {
+				path: '/javascript/let-const',
+				component: LetAndConst
 			}]
 		}, {
 			path: '/h5',

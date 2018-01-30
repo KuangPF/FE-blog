@@ -3,4 +3,5 @@
 /dist/
 /*.js
 /src/assets
+/test/
 

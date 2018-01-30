@@ -11,5 +11,11 @@
 		"labelColor": "color5",
 		"date": "2018.01.24",
 		"pathUrl": "/javascript/es6-promise"
+	}, {
+		"title": "es6 let and const",
+		"label": "es6",
+		"labelColor": "color3",
+		"date": "2018.01.28",
+		"pathUrl": "/javascript/let-const"
 	}]
 }
